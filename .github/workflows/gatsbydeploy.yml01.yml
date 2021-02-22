@@ -27,7 +27,7 @@ jobs:
       - name: install modules
         run: yarn install
       - name: build gatsby
-        run: gatsby build
+        run: gatsby build --prefix-paths && gh-pages -d public
         env:
           X_API_KEY: ${{ secrets.X_API_KEY }}
           SERVICE_ID: ${{ secrets.SERVICE_ID }}
