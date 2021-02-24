@@ -25,9 +25,9 @@ jobs:
         with:
           node-version: '14.x'
       - name: install modules
-        run: yarn install
+        run: npm install
       - name: build gatsby
-        run: gatsby build
+        run: npm run build
         env:
           X_API_KEY: ${{ secrets.X_API_KEY }}
           SERVICE_ID: ${{ secrets.SERVICE_ID }}
