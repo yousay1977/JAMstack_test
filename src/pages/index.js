@@ -34,7 +34,7 @@ const IndexPage = ({data}) => (
           <Col style={{backgroundColor:`cornflowerblue`,color:`white`,padding:`0.5rem`}}>IR情報</Col>
         </Row>
         <Row>
-          <Col style={{padding:`0.5rem`}}>決算報告</Col>
+          <Col style={{padding:`0.5rem`}}>決算報告ここ編集</Col>
         </Row>
         <Row>
           <Col style={{padding:`0.5rem`}}>社長挨拶（動画）</Col>
